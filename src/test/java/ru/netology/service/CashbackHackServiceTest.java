@@ -17,7 +17,7 @@ class CashbackHackServiceTest {
 
 
     @Test
-    void shouldReturn1IfAmountsIs900() {
+    void shouldReturn100IfAmountsIs900() {
         CashbackHackService cashback = new CashbackHackService();
         int amount = 900;
         int actual = cashback.remain(amount);
